@@ -1,0 +1,70 @@
+﻿/*General Selectors*/
+*{
+    margin:0;
+    padding:0;
+	font-family:Palatino Linotype,Calibri;
+}
+
+body {
+    background-color:#87CEFA; 
+}
+
+table{
+    border:none;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+td{
+    padding:10px;    
+}
+
+h2{
+    text-transform:capitalize;
+    text-align:center;
+    color:Gray;
+    padding-bottom:30px;
+}
+
+/*Divs*/
+.login-form
+{
+    text-align:center;
+    width:440px;
+    height:270px;
+    top:100px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:40px;
+    border-top-left-radius: 45px 30px;
+    border-top-right-radius: 45px 30px;
+    border-bottom-left-radius: 45px 30px;
+    border-bottom-right-radius: 45px 30px;
+    box-shadow: 0 0 20px 20px white;
+	/* Fondo Degradado */
+	  /* CSS3 */
+	  /* Safari 4+ y Chrome 1+ */
+	  /* Safari 5.1+ y Chrome 10+ */
+	  /* Firefox 3.6+ */
+	  /* Opera 11.10+ */
+	  background-color: #8ED1FD;
+    position: relative;
+    font-family: Calibri, Times, "Liberation Serif", "Times New Roman", "Bitstream Vera Serif";
+    font-size: x-large;
+    font-weight: bold;
+    background-image: -o-linear-gradient(left, #8ED1FD, #24A2F4);/* Internet Explorer 5.5+ - 9 */
+	  /* Internet Explorer 10+ */
+	  /* Color alternativo para versiones que no soporten degradados */
+}
+
+/*IDs*/
+#LblErr{
+    font-size:large;
+    color:Maroon;       
+}
+
+/*Classes*/
+.login-txt{
+    width:100%;
+}

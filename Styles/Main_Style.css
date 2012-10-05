@@ -1,0 +1,185 @@
+﻿*{
+    margin:0;
+    padding:0;
+    font-family:Palatino Linotype,Calibri;
+}
+
+body{
+    background-color:#51BEFF; 
+}
+
+td{
+    padding:3px;
+}
+
+h2{
+	text-align:center;
+	font-size:x-large;
+	color:blue;
+}
+
+h3{
+    font-size:medium;
+    color:Black;
+    text-align:center;
+}
+
+/*Divs*/
+#wrapper-main{
+    width:850px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:White;
+    position:relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0 0 10px 10px black;
+    margin-bottom:30px;    
+}
+
+#welcome-header{    
+    position:absolute;    
+    text-align:right;
+    font-size:small;
+    right:40px;
+    top:0;
+}
+
+#options{
+    float:left;
+    width:110px;
+    text-align:center;
+    background-color:White;
+}
+
+/*Navigation menu*/
+ul#nav li{
+    list-style:none;
+/* Fondo Degradado */
+
+    /* CSS3 */
+
+    background: linear-gradient(left, #005588, #AEE1FF);
+
+    /* Safari 4+ y Chrome 1+ */
+
+    background-image:-webkit-gradient(left, color-stop(0, #005588), color-stop(1, #AEE1FF));
+
+    /* Safari 5.1+ y Chrome 10+ */
+
+    background-image:-webkit-linear-gradient(left, #005588, #AEE1FF);
+
+    /* Firefox 3.6+ */
+
+    background-image:-moz-linear-gradient(left, #005588, #AEE1FF);
+
+    /* Opera 11.10+ */
+
+    background-image:-o-linear-gradient(left, #005588, #AEE1FF);
+
+    /* Internet Explorer 5.5+ - 9 */
+
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#005588', EndColorStr='#AEE1FF',GradientType=1);
+
+    /* Internet Explorer 10+ */
+
+    background: -ms-linear-gradient(left, #005588, #AEE1FF);
+
+    /* Color alternativo para versiones que no soporten degradados */
+
+    background-color: #005588;
+    background-repeat:repeat-y;
+}
+
+ul#nav li a{
+    display:block;
+    padding:3px 7px;
+    text-decoration:none;    
+}
+
+ul#nav li, ul#nav li a{        
+    color:White;
+    font-weight:bold;
+    font-family:Palatino Linotype;
+    font-size:small;
+}
+
+ul#nav li a:hover{
+/* Fondo Degradado */
+
+    /* CSS3 */
+
+    background: linear-gradient(left, #00A3F8, #C4EBFF);
+
+    /* Safari 4+ y Chrome 1+ */
+
+    background-image:-webkit-gradient(left, color-stop(0, #00A3F8), color-stop(1, #C4EBFF));
+
+    /* Safari 5.1+ y Chrome 10+ */
+
+    background-image:-webkit-linear-gradient(left, #00A3F8, #C4EBFF);
+
+    /* Firefox 3.6+ */
+
+    background-image:-moz-linear-gradient(left, #00A3F8, #C4EBFF);
+
+    /* Opera 11.10+ */
+
+    background-image:-o-linear-gradient(left, #00A3F8, #C4EBFF);
+
+    /* Internet Explorer 5.5+ - 9 */
+
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#00A3F8', EndColorStr='#C4EBFF',GradientType=1);
+
+    /* Internet Explorer 10+ */
+
+    background: -ms-linear-gradient(left, #00A3F8, #C4EBFF);
+
+    /* Color alternativo para versiones que no soporten degradados */
+
+    background-color: #00A3F8;
+
+    background-repeat:repeat-y;
+    color:Black;
+}
+
+/*IDs*/
+table#Admin{
+    margin-left:auto;
+    margin-right:auto;      
+    font-size:small;
+    border:groove;
+    width:auto;
+}
+
+table#Admin td, table#Admin th{
+    border:groove;
+    text-align:justify;
+}
+
+table#Admin th{
+    background-color:#51BEFF; 
+    text-align:center;  
+}
+
+td#opt{
+    width:120px;
+    vertical-align:top;
+}
+
+/*Classes*/
+img.mini{
+    width:50px;
+    height:50px;
+}
+
+img.banner{
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    height:auto;
+}
+

@@ -1,0 +1,29 @@
+﻿<%@ Master Language="VB" CodeFile="Base.master.vb" Inherits="Web_Base" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="Stylesheet" type="text/css" href="/MaintSys/Styles/General_Style.css" />
+    <link rel="Stylesheet" type="text/css" href="/MaintSys/Styles/Form_Style.css" />   
+    <script type='text/javascript' src='/MaintSys/JS/Validar.js'></script>
+</head>
+<body>
+        <form id="Form" runat="server" class="Form">
+            <asp:ScriptManager ID="ScriptManager1" runat="server" 
+                EnableScriptGlobalization="True">
+            </asp:ScriptManager>
+            <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                <ContentTemplate>
+                    <div>
+                        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </ContentTemplate>
+            </asp:UpdatePanel>
+        </form>
+</body>
+</html>
